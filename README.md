@@ -11,6 +11,8 @@
 # 실습 1: 텍스트 데이터 송수신
 
 코드 작성: 
+
+
 #include "BluetoothSerial.h"
 
 const char* DEVICE_NAME = "ESP32-BT-Slave";
@@ -50,6 +52,8 @@ void loop() {
 # LED 제어 (블루투스 이용)
 
 코드 작성 :
+
+
 #include "BluetoothSerial.h"
 
 BluetoothSerial SerialBT;
